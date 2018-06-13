@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import "themes/app";
+
+body {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+@import "themes/default-theme";
+@import "themes/contempt-theme";
+@import "themes/american-theme";
+

@@ -1,0 +1,23 @@
+@mixin app($theme) {
+  @at-root body.#{$theme} {
+    background-color: $background;
+  }
+
+  .#{$theme} {
+    h1 {
+      color: $primary;
+    }
+
+    p {
+      color: $secondary;
+    }
+
+    .panel {
+      background-color: $panel;
+    }
+
+    .action {
+      background-color: $action;
+    }
+  }
+}
